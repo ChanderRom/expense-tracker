@@ -11,12 +11,19 @@
     ```bash
     npm install
     ```
+3.  **Environment**
+    Duplicate `.env.example` as `.env` in both folders and set your `PORT` on the backend and the URL of your localhost for your frontend, i.e: http://localhost:3000
 
-2.  **Environment**
-    Duplicate `.env.example` as `.env` in both folders and set your `PORT`.
-
-3.  **Run**
-    Access the **localhost** port where the frontend is running.
+4.  **Run**
+   On the backend folder:
+       ```bash
+    npm run start:dev
+    ```
+   And on the frontend folder:
+       ```bash
+    npm run dev
+    ```
+    Finnaly access the **localhost** port where the frontend is running.
 
 ---
 
